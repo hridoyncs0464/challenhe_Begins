@@ -1,310 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
-    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- google font link  -->
-<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<!-- tailwind link -->
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google font link  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwind link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- css file link  -->
-<link rel="stylesheet" href="/./styles.css">
-</head>
-<body class="azeret-mono-font">
-    
-<!--  header section  -->
-    
+    <link rel="stylesheet" href="/./styles.css" />
+  </head>
+  <body class="azeret-mono-font sm:mx-[0] mx-[30px]">
+    <!--  header section  -->
+
     <header>
-        <nav class="navbar flex justify-between
-          max-w-[1200px] m-auto mt-[40px]
-        ">
-            <h3 class="nav-bar   text-[#0D1321] font-extrabold text-[1.75rem]">Rashedul.H</h3>
-            <button class="nav-btn font-semibold text-[1.25rem]
-             border-[#0D1321] border-1 px-[25px] py-[15px] rounded-[8px]">Download Resume</button>
-         
+      <nav
+        class="navbar flex sm:flex-row-reverse flex-col justify-between max-w-[1200px] m-auto mt-[40px]"
+      >
+        <h3 class="nav-bar text-[#0D1321] font-extrabold text-[1.75rem]">
+          Rashedul.H
+        </h3>
+        <button
+          class="nav-btn font-semibold text-[1.25rem] border-[#0D1321] border-1 px-[25px] py-[15px] rounded-[8px]"
+        >
+          Download Resume
+        </button>
+      </nav>
+      <section class="banner mt-[30px] bg-[url('./assets/Hero-bg.png')]">
+        <div class="banner-container text-center max-w-[1200px] m-auto">
+          <img class="m-auto" src="./assets/Group.png " alt="" />
+          <h3
+            class="banner-title font-extrabold sm:text-[3rem] text-[2rem] mt-[25px]"
+          >
+            "In the near future, I hope to become a Developer."
+          </h3>
+          <p class="banner-details text-[1rem] mt-[25px]">
+            I'm passionate about technology and love turning ideas into reality
+            through code. Currently learning and building small projects every
+            day. My goal is to grow into a skilled full-stack developer.
+          </p>
+          <button
+            class="banner-btn text-[#FFFFFF] mb-[40px] mt-[25px] font-[1.25rem] bg-[#0D1321] px-[25px] py-[20px]"
+          >
+            Contact with me
+          </button>
+        </div>
+      </section>
+    </header>
 
-    </nav>
-               <section class="banner mt-[30px] bg-[url('./assets/Hero-bg.png')]  ">
-                    <div class="banner-container text-center  max-w-[1200px] m-auto ">
-                        <img class="m-auto" src="./assets/Group.png " alt="">
-                        <h3 class="banner-title font-extrabold text-[3rem] mt-[25px] ">"In the near future, I hope to become a Developer."</h3>
-                        <p class="banner-details text-[1rem] mt-[25px]">I'm passionate about technology and love turning ideas into reality through code.
-Currently learning and building small projects every day.
-My goal is to grow into a skilled full-stack developer.</p>
-                     <button class="banner-btn text-[#FFFFFF] mb-[40px] mt-[25px] font-[1.25rem] bg-[#0D1321]  px-[25px] py-[20px]">Contact with me</button>
-                    </div>
-               </section>
+    <!--  main section  -->
 
-     </header>
+    <main>
+      <!-- devlopment section -->
 
-<!--  main section  -->
+      <section class="devlopment mt-[75px]">
+        <div class="dev-container text-center max-w-[1200px] m-auto">
+          <h3 class="dev-title font-extrabold text-[2rem] text-[#0D1321]">
+            Why Web Development??
+          </h3>
+          <p class="dev-details text-[1rem]">
+            Web development lets me turn ideas into interactive experiences that
+            people can use and enjoy. I love how it blends creativity with logic
+            and offers endless learning opportunities.
+          </p>
+        </div>
+        <div class="card-container max-w-[1200px] m-auto mt-[40px]">
+          <!-- card 1  -->
+          <div
+            class="dev-cards1 mt-[80px] flex sm:flex-row-reverse flex-col justify-around items-center"
+          >
+            <div class="dev-card-content w-[400px]">
+              <h5
+                class="card-title font-bold text-[1.5rem] test-[#0D1321]/70 mb-[15px]"
+              >
+                I will Do Coding and Change The World
+              </h5>
+              <p class="card-details mb-[30px] text-[1rem]">
+                Every line of code brings me closer to building something
+                impactful. I'm learning to create solutions that matter.
+              </p>
+              <button
+                class="card-btn nav-btn font-semibold text-[1.25rem] border-[#0D1321] border-1 px-[25px] py-[15px] rounded-[8px]"
+              >
+                Learn More
+              </button>
+            </div>
+            <img src="./assets/Layer_1.png" alt="" />
+          </div>
 
-     <main>
-                <section class="devlopment mt-[75px]"> 
-                    <div class="dev-container text-center  max-w-[1200px] m-auto">
-                        <h3 class="dev-title  font-extrabold text-[2rem] text-[#0D1321]">Why Web Development??</h3>
-                        <p class="dev-details  text-[1rem] ">Web development lets me turn ideas into interactive experiences that people can use and enjoy.
-I love how it blends creativity with logic and offers endless learning opportunities.</p>
-                    </div>
-                   <div class="card-container max-w-[1200px] m-auto mt-[40px]">
-     <!-- card 1  -->  
-                     <div class="dev-cards1 mt-[80px]  flex justify-around items-center">
-                        <div class="dev-card-content w-[400px]">
-                            <h5 class="card-title font-bold text-[1.5rem] test-[#0D1321]/70 mb-[15px]">I will Do Coding and Change The World</h5>
-                            <p class="card-details mb-[30px] text-[1rem]">Every line of code brings me closer to building something impactful.
-I'm learning to create solutions that matter.</p>
-                            <button class="card-btn nav-btn font-semibold text-[1.25rem]
-             border-[#0D1321] border-1 px-[25px] py-[15px] rounded-[8px]">Learn More</button>
-                        </div>
-                        <img src="./assets/Layer_1.png" alt="">
-                    </div>
+          <!-- card 2  -->
+          <div
+            class="dev-cards2 flex sm:flex-row flex-col justify-evenly items-center mt-[80px]"
+          >
+            <div class="dev-card-content w-[400px]">
+              <h5
+                class="card-title font-bold text-[1.5rem] test-[#0D1321]/70 mb-[15px]"
+              >
+                I will help People by creating Modern Web System
+              </h5>
+              <p class="card-details mb-[30px] text-[1rem]">
+                Every line of code brings me closer to building something
+                impactful. I'm learning to create solutions that matter.
+              </p>
+              <button
+                class="card-btn nav-btn font-semibold text-[1.25rem] border-[#0D1321] border-1 px-[25px] py-[15px] rounded-[8px]"
+              >
+                Learn More
+              </button>
+            </div>
+            <img src="./assets/Group 3.png" alt="" />
+          </div>
 
+          <!-- card 3  -->
 
-      <!-- card 2  -->
-                     <div class="dev-cards2  flex flex-row-reverse justify-evenly items-center mt-[80px]">
-                        <div class="dev-card-content w-[400px]">
-                            <h5 class="card-title font-bold text-[1.5rem] test-[#0D1321]/70 mb-[15px]">I will help People by creating Modern Web System</h5>
-                            <p class="card-details mb-[30px] text-[1rem]">Every line of code brings me closer to building something impactful.
-I'm learning to create solutions that matter.</p>
-                            <button class="card-btn nav-btn font-semibold text-[1.25rem]
-             border-[#0D1321] border-1 px-[25px] py-[15px] rounded-[8px]">Learn More</button>
-                        </div>
-                        <img src="./assets/Group 3.png" alt="">
-                    </div>
+          <div
+            class="dev-cards3 mt-[80px] flex sm:flex-row-reverse flex-col justify-around items-center"
+          >
+            <div class="dev-card-content w-[400px]">
+              <h5
+                class="card-title font-bold text-[1.5rem] test-[#0D1321]/70 mb-[15px]"
+              >
+                I will Do Coding and Change The World
+              </h5>
+              <p class="card-details mb-[30px] text-[1rem]">
+                Every line of code brings me closer to building something
+                impactful. I'm learning to create solutions that matter.
+              </p>
+              <button
+                class="card-btn nav-btn font-semibold text-[1.25rem] border-[#0D1321] border-1 px-[25px] py-[15px] rounded-[8px]"
+              >
+                Learn More
+              </button>
+            </div>
+            <img src="./assets/Group 4.png" alt="" />
+          </div>
+        </div>
+      </section>
 
-     <!-- card 3  -->
+      <section class="inspiration mt-[100px]">
+        <div
+          class="inspiration-content text-center items-center max-w-[1200px] m-auto"
+        >
+          <h4 class="insp-title font-extrabold text-[2rem]">My Inspiration</h4>
+          <p
+            class="insp-detailts mt-[25px] text-[1rem] opacity-[70%] mb-[50px]"
+          >
+            Creative design tells a story—mine begins with clean code, bold
+            ideas, and a passion for simplicity.
+          </p>
+          <div class="insp-ytLink flex justify-center mb-[100px]">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/AbrzyyEenDA?si=nqtmPDmm2cxPjajT"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
 
-                    <div class="dev-cards3 mt-[80px]  flex  justify-around items-center">
-                        <div class="dev-card-content w-[400px]">
-                            <h5 class="card-title font-bold text-[1.5rem] test-[#0D1321]/70 mb-[15px]">I will Do Coding and Change The World</h5>
-                            <p class="card-details mb-[30px] text-[1rem]">Every line of code brings me closer to building something impactful.
-I'm learning to create solutions that matter.</p>
-                            <button class="card-btn nav-btn font-semibold text-[1.25rem]
-             border-[#0D1321] border-1 px-[25px] py-[15px] rounded-[8px]">Learn More</button>
-                        </div>
-                        <img src="./assets/Group 4.png" alt="">
-                    </div>                   
-                    
-                   </div>
+      <!-- current section -->
+      <section class="current max-w-[1240px] m-auto">
+        <div
+          class="current-container text-center items-center max-w-[800px] m-auto"
+        >
+          <h3 class="current-title font-extrabold text-[2rem]">
+            My Current Target
+          </h3>
+          <p
+            class="current-details mt-[25px] text-[1rem] opacity-[70%] mb-[50px]"
+          >
+            I'm focused on sharpening my frontend skills—building real,
+            responsive, and interactive web interfaces with HTML, CSS, and
+            JavaScript.
+          </p>
+        </div>
 
-                      
-                </section>
+        <div
+          class="current-card-container grid sm:grid-cols-3 grid-cols-1 gap-[25px] mt-[48px]"
+        >
+          <!-- card 1 -->
+          <div class="current-card1 p-[30px] bg-[#FF4C1E]/5">
+            <img class="card-img max-w-[50%]" src="./assets/html.png" alt="" />
+            <h4
+              class="card-title font-extrabold text-[1.5rem] text-[#0D1321] mt-[25px]"
+            >
+              HTML
+            </h4>
+            <p class="card-details text-[1rem] mt-[8px]">
+              Mastering the foundation of every webpage—structure, semantics,
+              and accessibility.
+            </p>
+            <a
+              class="card-more-link font-bold text-[1rem] underline mt-[25px]"
+              href="https://www.w3schools.com/html/"
+              >Learn More</a
+            >
+          </div>
+          <!-- card 2 -->
+          <div class="current-card2 p-[30px] bg-[#004CE8]/5">
+            <img class="card-img max-w-[50%]" src="./assets/css.png" alt="" />
+            <h4
+              class="card-title font-extrabold text-[1.5rem] text-[#0D1321] mt-[25px]"
+            >
+              HTML
+            </h4>
+            <p class="card-details text-[1rem] mt-[8px]">
+              Mastering the foundation of every webpage—structure, semantics,
+              and accessibility.
+            </p>
+            <a
+              class="card-more-link font-bold text-[1rem] underline mt-[25px]"
+              href="https://www.w3schools.com/html/"
+              >Learn More</a
+            >
+          </div>
+          <!-- card 3 -->
+          <div class="current-card3 p-[30px] bg-[#FFDF00]/5">
+            <img class="card-img max-w-[50%]" src="./assets/js.png" alt="" />
+            <h4
+              class="card-title font-extrabold text-[1.5rem] text-[#0D1321] mt-[25px]"
+            >
+              HTML
+            </h4>
+            <p class="card-details text-[1rem] mt-[8px]">
+              Mastering the foundation of every webpage—structure, semantics,
+              and accessibility.
+            </p>
+            <a
+              class="card-more-link font-bold text-[1rem] underline mt-[25px]"
+              href="https://www.w3schools.com/html/"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </section>
 
+      <!-- next section -->
 
-                <section class="inspiration">
-                    <div class="inspiration-content text-center items-center  max-w-[1200px] m-auto">
-                        <h4 class="insp-title font-extrabold text-[2rem] ">My Inspiration</h4>
-                        <p class="insp-detailts mt-[25px]  text-[1rem] opacity-[70%] mb-[50px]
-                        
-                        ">
-                            Creative design tells a story—mine begins with clean code, bold ideas, and a passion for simplicity.
-                        </p>
-                      <div class="insp-ytLink flex justify-center mb-[100px]">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AbrzyyEenDA?si=nqtmPDmm2cxPjajT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                      </div>
-                    </div>
-                </section>
+      <section class="next my-[100px]">
+        <!-- next container -->
+        <div
+          class="next-container text-center items-center max-w-[1040px] m-auto"
+        >
+          <h3 class="next-title font-extrabold text-[2rem]">My next Target</h3>
+          <p class="next-details mt-[25px] text-[1rem] opacity-[70%] mb-[50px]">
+            I'm focused on sharpening my frontend skills—building real,
+            responsive, and interactive web interfaces with HTML, CSS, and
+            JavaScript.
+          </p>
+        </div>
+        <!-- next card-container -->
 
-
-<!-- current section -->
- <section class="current max-w-[1240px] m-auto">
-                <div class="current-container text-center items-center  max-w-[800px] m-auto">
-                    <h3 class="current-title font-extrabold text-[2rem] ">My Current Target</h3>
-                    <p class="current-details mt-[25px]  text-[1rem] opacity-[70%] mb-[50px]">I'm focused on sharpening my frontend skills—building real, responsive, and interactive web interfaces with HTML, CSS, and JavaScript.</p>
-                </div>
-
-     <div class="current-card-container grid grid-cols-3 gap-[25px] mt-[48px] ">
-        <!-- card 1 -->
-                  <div class="current-card1  p-[30px] bg-[#FF4C1E]/5  ">
-                    <img class="card-img max-w-[50%] " src="./assets/html.png" alt="">
-                    <h4 class="card-title font-extrabold text-[1.5rem] text-[#0D1321] mt-[25px] ">HTML</h4>
-                    <p class="card-details text-[1rem] mt-[8px]
-                    ">Mastering the foundation of every webpage—structure, semantics, and accessibility.</p>
-                        <a class="card-more-link font-bold text-[1rem]  underline mt-[25px]
-                         " href="https://www.w3schools.com/html/">Learn More</a>      
-                         
-                 </div>
-      <!-- card 2 -->
-                 <div class="current-card2  p-[30px] bg-[#004CE8]/5  ">
-                    <img class="card-img max-w-[50%] " src="./assets/css.png" alt="">
-                    <h4 class="card-title font-extrabold text-[1.5rem] text-[#0D1321]  mt-[25px]  ">HTML</h4>
-                    <p class="card-details text-[1rem] mt-[8px]
-                    ">Mastering the foundation of every webpage—structure, semantics, and accessibility.</p>
-                        <a class="card-more-link font-bold text-[1rem]  underline mt-[25px]
-                         " href="https://www.w3schools.com/html/">Learn More</a>      
-                         
-                      </div>
-  <!-- card 3 -->
-                <div class="current-card3   p-[30px]   bg-[#FFDF00]/5  ">
-                    <img class="card-img max-w-[50%] " src="./assets/js.png" alt="">
-                    <h4 class="card-title font-extrabold text-[1.5rem] text-[#0D1321] mt-[25px] ">HTML</h4>
-                    <p class="card-details text-[1rem] mt-[8px]
-                    ">Mastering the foundation of every webpage—structure, semantics, and accessibility.</p>
-                        <a class="card-more-link font-bold text-[1rem]  underline mt-[25px]
-                         " href="https://www.w3schools.com/html/">Learn More</a>      
-                         
-                 </div>
-
-
-
-         </div>
-
-</section>           
-         
-
-
-<!-- next section -->
-
-<section class="next">
-                 
-    <!-- next container -->
-         <div class="next-container  text-center items-center  max-w-[1040px] m-auto">
-                    <h3 class="next-title font-extrabold text-[2rem] ">My Current Target</h3>
-                    <p class="next-details mt-[25px]  text-[1rem] opacity-[70%] mb-[50px]">I'm focused on sharpening my frontend skills—building real, responsive, and interactive web interfaces with HTML, CSS, and JavaScript.</p>
-                </div>
-    <!-- next card-container -->
-
-  <div class="next-card-container max-w-[1240px] m-auto">
-       <!-- card 1 -->
-              <div class="card1 flex gap-[25px] justify-around m-[40px] p-[20px] items-center border rounded-[15px] border-[#0D1321]/15">
-            <div class="card-img"> 
-                <img src="./assets/react.png" alt="">
+        <div class="next-card-container max-w-[1240px] m-auto">
+          <!-- card 1 -->
+          <div
+            class="card1 flex sm:flex-row flex-col gap-[25px] justify-around m-[40px] p-[20px] items-center border rounded-[15px] border-[#0D1321]/15"
+          >
+            <div class="card-img">
+              <img src="./assets/react.png" alt="" />
             </div>
             <div class="card-content">
-                <h4 class="card-title text-[1.5rem]  font-extrabold">ReactJS</h4>
+              <h4 class="card-title text-[1.5rem] font-extrabold">ReactJS</h4>
 
-                <p class="card-details text-[1rem] mt-[15px]">ReactJS is a declarative, component-based JavaScript library for building dynamic and interactive user interfaces. It uses a virtual DOM to optimize rendering, making it highly efficient for single-page applications and complex UIs. </p>
+              <p class="card-details text-[1rem] mt-[15px]">
+                ReactJS is a declarative, component-based JavaScript library for
+                building dynamic and interactive user interfaces. It uses a
+                virtual DOM to optimize rendering, making it highly efficient
+                for single-page applications and complex UIs.
+              </p>
 
-              <a class="card-more-link font-bold text-[1rem]  underline mt-[25px]
-                         " href="https://www.w3schools.com/REACT/DEFAULT.ASP">Learn More</a> 
+              <a
+                class="card-more-link font-bold text-[1rem] underline mt-[25px]"
+                href="https://www.w3schools.com/REACT/DEFAULT.ASP"
+                >Learn More</a
+              >
             </div>
-        </div>      
+          </div>
 
+          <!-- card 2 -->
 
-
-        <!-- card 2 -->
-
-             <div class="card2 flex gap-[25px] justify-around m-[40px] p-[20px] items-center border rounded-[15px] border-[#0D1321]/15">
-            <div class="card-img"> 
-                <img src="./assets/nodejs.png" alt="">
-            </div>
-            <div class="card-content">
-                <h4 class="card-title text-[1.5rem]  font-extrabold">NodeJs</h4>
-
-                <p class="card-details text-[1rem] mt-[15px]">NodeJS is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser, typically for server-side development. </p>
-
-              <a class="card-more-link font-bold text-[1rem]  underline mt-[25px]
-                         " href="https://www.w3schools.com/REACT/DEFAULT.ASP">Learn More</a> 
-            </div>
-        </div> 
-
-
-        <!-- card 3 -->
-
-             <div class="card1 flex gap-[25px] justify-around m-[40px] p-[20px] items-center border rounded-[15px] border-[#0D1321]/15">
-            <div class="card-img"> 
-                <img src="./assets/mongodb.png" alt="">
+          <div
+            class="card2 flex sm:flex-row flex-col gap-[25px] justify-around m-[40px] p-[20px] items-center border rounded-[15px] border-[#0D1321]/15"
+          >
+            <div class="card-img">
+              <img src="./assets/nodejs.png" alt="" />
             </div>
             <div class="card-content">
-                <h4 class="card-title text-[1.5rem]  font-extrabold">MongoDB</h4>
+              <h4 class="card-title text-[1.5rem] font-extrabold">NodeJs</h4>
 
-                <p class="card-details text-[1rem] mt-[15px]">MongoDB is a flexible, scalable NoSQL document database. It stores data in JSON-like documents with dynamic schemas, providing developers with agility and ease of use. </p>
+              <p class="card-details text-[1rem] mt-[15px]">
+                NodeJS is an open-source, cross-platform JavaScript runtime
+                environment that executes JavaScript code outside a web browser,
+                typically for server-side development.
+              </p>
 
-              <a class="card-more-link font-bold text-[1rem]  underline mt-[25px]
-                         " href="https://www.w3schools.com/mongodb/">Learn More</a> 
+              <a
+                class="card-more-link font-bold text-[1rem] underline mt-[25px]"
+                href="https://www.w3schools.com/REACT/DEFAULT.ASP"
+                >Learn More</a
+              >
             </div>
-        </div> 
+          </div>
 
+          <!-- card 3 -->
 
-  </div>  
+          <div
+            class="card1 flex sm:flex-row flex-col gap-[25px] justify-around m-[40px] p-[20px] items-center border rounded-[15px] border-[#0D1321]/15"
+          >
+            <div class="card-img">
+              <img src="./assets/mongodb.png" alt="" />
+            </div>
+            <div class="card-content">
+              <h4 class="card-title text-[1.5rem] font-extrabold">MongoDB</h4>
 
-</section>
+              <p class="card-details text-[1rem] mt-[15px]">
+                MongoDB is a flexible, scalable NoSQL document database. It
+                stores data in JSON-like documents with dynamic schemas,
+                providing developers with agility and ease of use.
+              </p>
+
+              <a
+                class="card-more-link font-bold text-[1rem] underline mt-[25px]"
+                href="https://www.w3schools.com/mongodb/"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- support section -->
-        <section class="support max-w-[1140px] m-auto mb-[80px] bg-[url('./assets/handshake.jpg')] brightness-75 bg-center rounded-[16px]">
-            <div class="support-container pl-[65px] pr-[65px]  pt-[65px]   pb-[65px]  text-center">
-                <h4 class="support-title font-bold text-[#FFFFFF] text-[2rem] mb-[16px]">I need Support</h4>
-                <p class="support-details text-[1rem]
-                text-[#FFFFFF] mb-[24px]">We are here to help! Our dedicated support team is ready to assist you with any questions, issues, or feedback you may have. Your satisfaction is our top priority.</p>
-                <input class="bg-[#FFFFFF] pt-[20px] pr-[200px] pb-[20px] pl-[20px] text-[#0D1321/40] rounded-[8px] " type="text" placeholder="Suggest me any feedback for me">
-                <button class="support-btn font-semibold text-[1.25rm] p-[20px]
-                  bg-[#FFFFFF] rounded-[8px] mb-[]">Submit</button>
-            </div>
-        </section>
-
-
-
-     </main>
-
-<!--  footer section  -->
-          
-   
-     <footer class="footer flex  justify-around items-center py-[32px] bg-[#0D1321]/3">
-      <h3 class="footer-title font-semibold text-[1.25rem]  ">An Open Commitment by Md.Rashedul Islam Hridoy</h3>
- 
-      <div class="footer-images flex gap-[20px]">
-        <img src="./assets/facebook.png" alt="">
-        <img src="./assets/github.png" alt="">
-        <img src="./assets/linkedin-icon 1.png" alt="">
-      </div>
-     </footer>
-
-
-</body>
-</html>
-<!-- 
-<div
-          class="mission-card-container grid grid-cols-3 gap-[25px] mt-[48px]"
+      <section
+        class="support max-w-[1140px] m-auto mb-[80px] bg-[url('./assets/handshake.jpg')] brightness-75 bg-center rounded-[16px]"
+      >
+        <div
+          class="support-container pl-[65px] pr-[65px] pt-[65px] pb-[65px] text-center"
         >
-          <div class="mission-card1 rounded-[26px] p-[30px] bg-[#4F9DA6]/10">
-            <img
-              class="max-w-[50%]"
-              src="./images/illustrators/illustrator-1.png"
-              alt=""
-            />
-            <h3 class="mission-card-title font-semibold text-[1.5rem]">
-              Mission
-            </h3>
-            <p class="mission-card-details text-[#424242] mt-[15px]">
-              To stay focused on consistent learning, skill-building, and
-              personal growth. Every day is a step toward becoming a better
-              version of yourself.
-            </p>
-          </div>
-          <div class="mission-card2 rounded-[26px] p-[30px] bg-[#FF5959]/10">
-            <img
-              class="max-w-[50%]"
-              src="./images/illustrators/illustrator-2.png"
-              alt=""
-            />
-            <h3 class="mission-card-title font-semibold text-[1.5rem]">
-              Vission
-            </h3>
-            <p class="mission-card-details mt-[15px] text-[#424242]">
-              To achieve excellence by combining passion with purpose. Visualize
-              long-term success and align your daily habits to support that
-              dream.
-            </p>
-          </div>
-          <div class="mission-card3 rounded-[26px] p-[30px] bg-[#4F9DA6]/10">
-            <img
-              class="max-w-[50%]"
-              src="./images/illustrators/illustrator-3.png"
-              alt=""
-            />
-            <h3 class="mission-card-title font-semibold text-[1.5rem]">
-              Goals
-            </h3>
-            <p class="mission-card-details mt-[15px] text-[#424242]">
-              Set clear, measurable targets and break them into manageable
-              tasks. Stay accountable and celebrate small wins along the way.
-            </p>
-          </div>
-        </div> -->
+          <h4
+            class="support-title font-bold text-[#FFFFFF] text-[2rem] mb-[16px]"
+          >
+            I need Support
+          </h4>
+          <p class="support-details text-[1rem] text-[#FFFFFF] mb-[24px]">
+            We are here to help! Our dedicated support team is ready to assist
+            you with any questions, issues, or feedback you may have. Your
+            satisfaction is our top priority.
+          </p>
+          <input
+            class="bg-[#FFFFFF] pt-[20px] sm:pr-[200px] pr-[1px] pb-[20px] pl-[5px] text-[#0D1321]/40 rounded-[8px] sm:mb-[0] mb-[30px]"
+            type="text"
+            placeholder="Suggest me any feedback for me"
+          />
+          <button
+            class="support-btn font-semibold text-[1.25rm] p-[20px] bg-[#FFFFFF] rounded-[8px]"
+          >
+            Submit
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!--  footer section  -->
+
+    <footer
+      class="footer flex sm:flex-row flex-col justify-around items-center py-[32px] bg-[#0D1321]/3"
+    >
+      <h3 class="footer-title font-semibold text-[1.25rem]">
+        An Open Commitment by Md.Rashedul Islam Hridoy
+      </h3>
+
+      <div class="footer-images flex gap-[20px]">
+        <img src="./assets/facebook.png" alt="" />
+        <img src="./assets/github.png" alt="" />
+        <img src="./assets/linkedin-icon 1.png" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>
